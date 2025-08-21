@@ -458,7 +458,7 @@ The process starts from the Orchestrate App Builder UI, where you add a new skil
 1.  From the agent's **Toolset** page, click the **Add tool** button.
 2.  From the "Add a new tool" dialog, select the **Import** option to connect to an external tool.
 
-    ![Choosing to import a new tool](../wxo-langflow-integration/assets/orchestrate-import-command.png)
+    ![Choosing to import a new tool](./assets/orchestrate-import-command.png)
 
 #### Step 2: Select MCP Server Import
 
@@ -466,7 +466,7 @@ Orchestrate provides multiple ways to import a tool.
 
 1.  In the next dialog, select **Import from MCP server** to connect to a live endpoint like the one provided by Langflow.
 
-    ![Adding a new MCP server](../wxo-langflow-integration/assets/orchestrate-import-mcp.png)
+    ![Adding a new MCP server](./assets/orchestrate-import-mcp.png)
 
 #### Step 3: Add the Langflow MCP Server
 
@@ -474,7 +474,7 @@ Before you can import the tool, you must first register your Langflow MCP server
 
 1.  From the "Import or remove tools" screen, click **Add MCP server**.
 
-    ![Selecting the MCP server import option](../wxo-langflow-integration/assets/orchestrate-import-mcp-create.png)
+    ![Selecting the MCP server import option](./assets/orchestrate-import-mcp-create.png)
 
 2.  In the "Add MCP Server" dialog, configure the connection:
     *   Give your server a memorable **Server name**, like `langflow`.
@@ -485,7 +485,7 @@ Before you can import the tool, you must first register your Langflow MCP server
         ```
     *   Click **Connect**.
 
-    <img src="../wxo-langflow-integration/assets/orchestrate-add-mcp.png" alt="Configuring the Langflow MCP server connection details" width="300">
+    <img src="./assets/orchestrate-add-mcp.png" alt="Configuring the Langflow MCP server connection details" width="300">
 
 #### Step 4: Verify and Use the New Skill
 
@@ -497,6 +497,6 @@ Once the MCP server is connected and the tool is imported, it will appear in you
 
 The Orchestrate agent will now delegate the task to your Langflow agent, which will execute its flow and return the final answer directly in the chat.
 
-![The integrated Langflow agent successfully answers a question in the Orchestrate chat UI](../wxo-langflow-integration/assets/orchestrate-chat.png)
+![The integrated Langflow agent successfully answers a question in the Orchestrate chat UI](./assets/orchestrate-chat.png)
 
 Congratulations! You have successfully integrated a powerful, custom Langflow agent into watsonx Orchestrate using only the user interface.
