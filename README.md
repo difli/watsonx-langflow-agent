@@ -17,7 +17,7 @@ By the end of the workshop you've learned:
 3. How to use **watsonx.ai** to use foundational models (LLMs)
 4. How to use **Langflow** to create **intelligent agents** utilizing multiple tools
 5. How to utilise the Customer Support Agent flow in a **customer facing app**
-6. How to publish the Customer Support agent as an **MCP server** and use it in Claude desktop
+6. How to publish the Customer Support agent as an **MCP server** and use it in Claude desktop and in **watsonx Orchestrate**.
 
 ## 🛠️ Prerequisites
 This workshop assumes you have access to:
@@ -155,7 +155,7 @@ Click the magnifying glass `🔍` in the `watsonx.ai` component. This shows you 
 #### Steps:
 1. Reproduce the above flow (or load it from [./flows/basic-agentic-ai.json](./flows/basic-agentic-ai.json))
 2. For watsonx.ai, ensure that the `API Endpoint`, `Project ID` and `API Key` have been set correctly. Also make sure the output is set to `Language Model`.
-3. Ensure the model is set to a chat-capable model, such as `meta/meta-llama-3-3-70b-instruct`
+3. Ensure the model is set to a chat-capable model, such as `mistralai/mistral-large`
 4. When adding the `URL` and `Calculator` components to the canvas, select them and click `Tool mode`
 5. Connect all the components
 
