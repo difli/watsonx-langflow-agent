@@ -257,13 +257,13 @@ Browse back to Langflow, click on `▶️ Playground` and click on `+` on the le
 1. Browse to your `support_agent` database on [Astra DB](https://astra.datastax.com)
 2. Click `Data Explorer` and click `Create Collection +`
 3. Name the collection `orders`, disable the `Vector-enabled collection` switch and click `Create Collection`
-4. Click `Load Data` and upload the file: [./data/sample_orders.csv](./sample_orders.csv)
+4. Click `Load Data` and upload the file: [./data/sample_orders.csv](./data/sample_orders.csv)
 5. Verify the data was loaded into Astra DB
 
 #### Preparation: Add Products data
 1. Click `Create Collection +`
 2. Name the collection `products`, disable the `Vector-enabled collection` switch and click `Create Collection`
-3. Click `Load Data` and upload the file: [./data/sample_products.csv](./sample_products.csv)
+3. Click `Load Data` and upload the file: [./data/sample_products.csv](./data/sample_products.csv)
 4. Verify the data was loaded into Astra DB
 
 #### Steps 🛠️🔍: Add Order Lookup to the agent 
