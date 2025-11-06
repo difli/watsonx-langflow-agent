@@ -63,7 +63,7 @@ There are several ways to gain access to Langflow. Pick the one that suits you b
 ### ⚡️ Open this tutorial on Github Codespaces
 To make life easier, we'll use the awesome Github Codespace functionality. Github offers you a smooth cloud-based developer experience to get started quickly. How?
 
-1. Open the [watsonx-langflow-agent](https://github.com/michelderu/watsonx-langflow-agent) repository
+1. Open the [watsonx-langflow-agent](https://github.com/difli/watsonx-langflow-agent) repository
 2. Click on `Use this template`->`Open in a codespace` as follows:
 
     ![github-open-in-codespace](./assets/github-open-in-codespace.png)
