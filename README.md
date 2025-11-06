@@ -342,8 +342,9 @@ In this step we'll create a simple Python app that runs the Langflow flow.
     ![langflow-python-api](./assets/langflow-python-api.png)
 
 3. Copy the code, use your Codespaces cloud IDE and paste it in a new file called `flow.py`
-    - Change the `url` variable on line to 10 to `http://localhost:7860`, make sure to keep the full path (`/api/...`)!
-    - Change the `input_value` variable on line 16 to something like '*How can I cancel order 1001 and what is the shipping policy?*'
+    - Change the `url` variable on line to 5 to `http://localhost:7860`, make sure to keep the full path (`/api/...`)!
+    - Change the `input_value` variable on line 11 to something like '*How can I cancel order 1001 and what is the shipping policy?*'
+    - On line 15 add: headers = {'x-api-key': 'YOUR-API-KEY, 'Content-Type': 'application/json'}
 5. Save the file
 6. In the same API Access window in Langflow now click the `create and API key` link
 7. In the new window, click `+ Add New`, type a description (e.g. Support Agent) and click `Generate API Key`
